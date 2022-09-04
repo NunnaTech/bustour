@@ -6,6 +6,9 @@ import Servicios from './pages/Servicios';
 import Unidades from './pages/Unidades';
 import Precios from './pages/Precios';
 import Galeria from './pages/Galeria';
+import Acerca from './pages/Acerca';
+import Testimonios from './pages/Testimonios';
+import Contacto from './pages/Contacto';
 
 export default function App() {
 	return (
@@ -16,7 +19,9 @@ export default function App() {
 			<Unidades />
 			<Precios />
 			<Galeria />
-
+			<Acerca />
+			<Testimonios />
+			<Contacto />
 			<Footer />
 		</div>
 	);
