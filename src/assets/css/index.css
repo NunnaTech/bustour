@@ -10,6 +10,6 @@ html {
 
 @layer components {
 	.nabvar-link{
-		@apply md:py-1 md:px-2 text-lg rounded-lg hover:bg-slate-100 hover:text-secondary transition-colors
+		@apply md:py-1 md:px-2 text-base md:text-lg rounded-lg hover:bg-slate-100 hover:text-secondary transition-colors
 	}
 }

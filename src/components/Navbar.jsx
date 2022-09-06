@@ -17,7 +17,7 @@ export default function Navbar() {
 						/>
 					</a>
 				</div>
-				<nav className='md:col-span-8 flex items-center gap-4 justify-center'>
+				<nav className='md:col-span-8 flex items-center flex-wrap gap-4 justify-center'>
 					<a
 						href='/#inicio'
 						className='nabvar-link'>
