@@ -1,14 +1,14 @@
 export default function Precios() {
 	return (
 		<div
-			className='container my-14'
+			className='my-14 bg-[#E1E7F0]'
 			id='precios'>
-			<h2 className='mb-5 text-2xl md:text-4xl text-center font-bold text-primary'>
+			<h2 className='mb-5 pt-5 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Precios
 			</h2>
 			<div>
-				<div className='bg-[#E1E7F0]'>
-					<div className='container mx-auto py-10 px-6'>
+				<div className='container'>
+					<div className='mx-auto py-10 px-6'>
 						<div className='mx-auto text-center lg:w-8/12 xl:w-7/12'>
 							<h3 className='text-xl text-primary font-semibold md:text-3xl'>
 								En BUSTOUR MORELOS te llevamos a la Rivera Maya a u súper precio
@@ -25,14 +25,14 @@ export default function Precios() {
 										Cancún
 									</h3>
 									<div className='text-center'>
-										<p className='text-8xl text-gray-800 font-bold leading-0'>
+										<p className='text-5xl md:text-7xl text-gray-800 font-bold leading-0'>
 											$7,800
 										</p>
 										<p className='text-lg font-semibold text-primary'>
 											Solo transporte
 										</p>
 									</div>
-									<ul className='w-max space-y-4 py-6 m-auto text-gray-600'>
+									<ul className='space-y-4 py-6 m-auto text-gray-600'>
 										<li className='space-x-2'>
 											<span className='text-primary font-semibold'>✓</span>
 											<span>Transporte redonde saliendo de Cuernavaca</span>
@@ -91,7 +91,7 @@ export default function Precios() {
 										Aparta tu lugar y puedes ir dando pagos o liquidar al
 										abordar el día del viaje
 									</p>
-									<div className='mt-6 flex justify-between gap-6'>
+									<div className='mt-6 flex flex-wrap justify-between gap-6'>
 										<img
 											className='w-16 lg:w-24'
 											src='https://tailus.io/sources/blocks/organization/preview/images/clients/airbnb.svg'

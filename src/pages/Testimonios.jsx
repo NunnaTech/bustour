@@ -1,11 +1,11 @@
 export default function Testimonios() {
 	return (
-		<div className='container my-14'>
+		<div className='my-14 p-5 bg-[#E1E7F0]'>
 			<h2 className='mb-5 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Testimonios
 			</h2>
 
-			<section>
+			<section className="container">
 				<div className='px-4 py-4 mx-auto max-w-screen-xl sm:px-6 lg:px-4'>
 					<div className='mt-8 grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12'>
 						<blockquote>

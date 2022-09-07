@@ -11,13 +11,13 @@ export default function Extra() {
 							alt='Bus'
 							className='mx-auto'
 						/>
-						<div className='absolute text-center text-xl bg-secondary rounded-full w-28 h-28 font-medium flex items-center justify-center inset-0 inset-x-2/3 md:inset-x-3/4'>
+						<div className='absolute text-center text-xl bg-secondary rounded-full w-28 h-28 font-medium flex items-center justify-center inset-0 inset-x-2/3 md:inset-x-2/3'>
 							<div>
-								<div className='font-semibold text-4xl'>+4</div>
+								<div className='font-semibold text-4xl'>+6</div>
 								Unidades
 							</div>
 						</div>
-						<div className='absolute text-center text-xl bg-secondary rounded-full w-28 h-28 font-medium flex items-center justify-center inset-40'>
+						<div className='absolute text-center text-xl bg-secondary rounded-full w-28 h-28 font-medium flex items-center justify-center inset-40 inset-x-10 md:inset-48'>
 							<div>
 								<div className='font-semibold text-4xl'>+25</div>
 								Años

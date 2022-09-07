@@ -36,8 +36,6 @@ export default function Galeria() {
 							spaceBetween={50}
 							slidesPerView={3}
 							navigation
-							scrollbar={{ draggable: true }}
-							pagination={{ clickable: true }}
 							breakpoints={{
 								240: {
 									slidesPerView: 1,
