@@ -10,8 +10,10 @@ export default function Unidades() {
 			</h2>
 
 			<div className='grid md:grid-cols-3 gap-4 mx-4 md:mx-10'>
-				{unidades.map((s) => (
-					<div className='bg-white flex flex-col max-w-sm mx-auto rounded-lg shadow-xl'>
+				{unidades.map((s, index) => (
+					<div
+						key={index}
+						className='bg-white flex flex-col max-w-sm mx-auto rounded-lg shadow-xl'>
 						<div>
 							<img
 								src='https://img.freepik.com/foto-gratis/joven-encantadora-sensual-escuchando-musica-auriculares_613910-14438.jpg?w=2000&t=st=1660349994~exp=1660350594~hmac=ea8a0922a880cbdbd39386afbc7ae2fff5390107de1e0069a51e3baefa523b41'
