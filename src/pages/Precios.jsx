@@ -1,7 +1,7 @@
 export default function Precios() {
 	return (
 		<div
-			className='my-14 bg-[#E1E7F0]'
+			className='mt-14 mb-7 bg-[#E1E7F0] p-5'
 			id='precios'>
 			<h2 className='mb-5 pt-5 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Precios
@@ -11,7 +11,7 @@ export default function Precios() {
 					<div className='mx-auto py-10 px-6'>
 						<div className='mx-auto text-center lg:w-8/12 xl:w-7/12'>
 							<h3 className='text-xl text-primary font-semibold md:text-3xl'>
-								En BUSTOUR MORELOS te llevamos a la Rivera Maya a u súper precio
+								En BUSTOUR MORELOS te llevamos a la Rivera Maya a un súper precio
 								de preventa
 							</h3>
 						</div>
@@ -25,7 +25,7 @@ export default function Precios() {
 										Cancún
 									</h3>
 									<div className='text-center'>
-										<p className='text-5xl md:text-7xl text-gray-800 font-bold leading-0'>
+										<p className='text-5xl md:text-7xl text-gray-700 font-bold leading-0'>
 											$7,800
 										</p>
 										<p className='text-lg font-semibold text-primary'>
@@ -64,7 +64,7 @@ export default function Precios() {
 							<div className='relative group md:w-6/12 lg:w-7/12'>
 								<div className='absolute top-0 w-full h-full rounded-2xl bg-white shadow-lg transition duration-500 group-hover:scale-105'></div>
 								<div className='relative p-6 pt-16 md:p-8 md:pl-12 md:rounded-r-2xl lg:pl-20 lg:p-16'>
-									<p className='text-3xl font-semibold text-center'>Visita:</p>
+									<p className='text-3xl font-semibold text-center text-gray-700'>Visita:</p>
 									<ul className='space-y-4 py-6 text-gray-600'>
 										<li className='space-x-2'>
 											<span className='text-primary font-semibold'>✓</span>
@@ -89,33 +89,45 @@ export default function Precios() {
 									</ul>
 									<p className='text-gray-700'>
 										Aparta tu lugar y puedes ir dando pagos o liquidar al
-										abordar el día del viaje
+										abordar el día del viaje. Tambien aceptamos pagos con tarjeta
 									</p>
 									<div className='mt-6 flex flex-wrap justify-between gap-6'>
-										<img
-											className='w-16 lg:w-24'
-											src='https://tailus.io/sources/blocks/organization/preview/images/clients/airbnb.svg'
-											loading='lazy'
-											alt='airbnb'
-										/>
-										<img
-											className='w-8 lg:w-16'
-											src='https://tailus.io/sources/blocks/organization/preview/images/clients/bissell.svg'
-											loading='lazy'
-											alt='bissell'
-										/>
-										<img
-											className='w-6 lg:w-12'
-											src='https://tailus.io/sources/blocks/organization/preview/images/clients/ge.svg'
-											loading='lazy'
-											alt='ge'
-										/>
-										<img
-											className='w-20 lg:w-28'
-											src='https://tailus.io/sources/blocks/organization/preview/images/clients/microsoft.svg'
-											loading='lazy'
-											alt='microsoft'
-										/>
+										<div className='grid justify-items-center'>
+											<img
+												className='w-12 lg:w-20'
+												src='https://tqpytokz.cdn.imgeng.in/media-adsa/static/3714/036.svg'
+												loading='lazy'
+												alt='mastercard'
+											/>
+											<p className='text-center text-xs mt-2 text-zinc-600'>Mastercard</p>
+										</div>
+										<div className='grid justify-items-center'>
+											<img
+												className='w-12 lg:w-20'
+												src='https://tqpytokz.cdn.imgeng.in/media-adsa/static/3714/042.svg'
+												loading='lazy'
+												alt='visa'
+											/>
+											<p className='text-center text-xs mt-2 text-zinc-600'>VISA</p>
+										</div>
+										<div className='grid justify-items-center'>
+											<img
+												className='w-12 lg:w-20'
+												src='https://tqpytokz.cdn.imgeng.in/media-adsa/static/3714/035.svg'
+												loading='lazy'
+												alt='efectivo'
+											/>
+											<p className='text-center text-xs mt-2 text-zinc-600'>Efectivo</p>
+										</div>
+										<div className='grid justify-items-center'>
+											<img
+												className='w-12 lg:w-20'
+												src='https://tqpytokz.cdn.imgeng.in/media-adsa/static/3714/034.svg'
+												loading='lazy'
+												alt='transferencia'
+											/>
+											<p className='text-center text-xs mt-2 text-zinc-600'>Transferencias</p>
+										</div>
 									</div>
 								</div>
 							</div>

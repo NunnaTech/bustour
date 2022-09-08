@@ -5,9 +5,9 @@ import { AiOutlineMail } from 'react-icons/ai';
 export default function Acerca() {
 	return (
 		<div
-			className='container my-14'
+			className='container my-14 p-5'
 			id='contacto'>
-			<h2 className='mb-5 text-2xl md:text-4xl text-center font-bold text-primary'>
+			<h2 className='mb-12 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Contacto
 			</h2>
 
@@ -22,14 +22,13 @@ export default function Acerca() {
 
 							<div className='mt-6 space-y-4 md:mt-8'>
 								<p className='flex items-start'>
-									<FiMapPin className='text-5xl md:text-2xl' />
+									<FiMapPin className='text-2xl' />
 									<a
 										href='https://goo.gl/maps/nsGeGqnbpDnBGsqD6'
 										target='_blank'
 										rel='noreferrer'>
 										<span className='mx-2'>
-											ANTONIO BARONA CENTRO, 145, ANTONIO BARONA CENTRO,
-											CUERNAVACA, MOR, C.P. 62320
+										Lázaro Cárdenas 145, Antonio Barona, 62320 Cuernavaca, Mor.
 										</span>
 									</a>
 								</p>
@@ -59,7 +58,7 @@ export default function Acerca() {
 						<div className='w-full'>
 							<iframe
 								src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.7802470010533!2d-99.19245950125337!3d18.950261806654343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddff85de449ff%3A0x4ec212241579f72b!2sL%C3%A1zaro%20C%C3%A1rdenas%20145%2C%20Antonio%20Barona%2C%2062320%20Cuernavaca%2C%20Mor.!5e0!3m2!1ses-419!2smx!4v1662525791145!5m2!1ses-419!2smx'
-								className='w-full h-96'
+								className='w-full h-96 rounded-br-lg rounded-bl-lg'
 								allowFullScreen=''
 								loading='lazy'
 								title='Mapa de ubicación'
@@ -112,7 +111,7 @@ export default function Acerca() {
 								</label>
 								<textarea
 									className='block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48         focus:border-blue-400   focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
-									placeholder='Comentario'></textarea>
+									placeholder='¡Hola! Me gustaria resevar un traslado al aeropuerto'></textarea>
 							</div>
 
 							<button className='w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-secondary rounded-md hover:bg-primary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'>

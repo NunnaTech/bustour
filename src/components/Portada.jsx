@@ -15,7 +15,7 @@ export default function Portada() {
 						¿Necesitas un autobús para un viaje o excursión?
 					</h1>
 					<p className='max-w-lg md:text-2xl mt-4 font-medium md:leading-relaxed'>
-						Renta de autobuses y camionetas
+						Renta de autobuses, camionetas y autos.
 					</p>
 					<p className='md:text-2xl italic text-yellow-700 md:leading-relaxed'>
 						"Un viaje, muchas experiencias"

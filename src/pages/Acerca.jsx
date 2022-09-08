@@ -9,20 +9,20 @@ export default function Acerca() {
 			icon: () => <HiUserGroup />,
 			content: 'Equipo especializado y profesional',
 		},
-		{ icon: () => <FaBus />, content: 'Para cualquier tipo de tour' },
+		{ icon: () => <FaBus />, content: 'Traslados a cualquier parte de la republica' },
 		{ icon: () => <Ri24HoursLine />, content: 'Servicio las 24 hrs' },
 	];
 
 	return (
-		<div className='container my-14'>
-			<h2 className='mb-5 text-2xl md:text-4xl text-center font-bold text-primary'>
+		<div className='container my-12'>
+			<h2 className='my-5 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Acerca de BUSTOUR MORELOS
 			</h2>
 			<section>
-				<div className='container px-6 py-10 mx-auto'>
-					<div className='text-lg text-text text-center mb-5'>
-						Somos una empresa especializada en trasporte de turismo, con más de
-						40 años de experiencia.
+				<div className='container px-6  mx-auto '>
+					<div className='text-lg text-text text-center mb-8'>
+						¡Somos una empresa especializada en trasporte de turismo, dónde
+						nuestra confiabilidad y experiencia nos respalda!
 						<br />
 						Dispuestos a apoyarlos en la organización de sus viajes.
 					</div>
@@ -30,7 +30,7 @@ export default function Acerca() {
 						{about.map((item, index) => (
 							<div
 								key={index}
-								className='flex flex-col items-center p-6 space-y-3 text-center bg-white rounded-xl'>
+								className='flex flex-col items-center p-6 space-y-3 text-center bg-white rounded-xl shadow-md'>
 								<span className='inline-block p-3 text-xl text-blue-500 bg-blue-100 rounded-full'>
 									<item.icon />
 								</span>
@@ -41,9 +41,8 @@ export default function Acerca() {
 
 					<div className='text-lg text-text text-center mt-5'>
 						Con Bustour Morelos contarás con los mejores servicios en la renta
-						de autobuses
-						<br /> y camionetas con chofer, esto para que puedas disfrutar tus
-						vacaciones y relajarte.
+						de autobuses y camionetas con chofer, esto para que puedas disfrutar
+						tus vacaciones y relajarte.
 					</div>
 
 					<div className='text-lg text-primary text-center font-semibold mt-5'>

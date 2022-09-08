@@ -23,8 +23,8 @@ export default function Galeria() {
 	];
 
 	return (
-		<div className='container my-14'>
-			<h2 className='mb-5 text-2xl md:text-4xl text-center font-bold text-primary'>
+		<div className='container mb-14 mt-3 p-5'>
+			<h2 className='mb-9 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Galería
 			</h2>
 
@@ -49,11 +49,11 @@ export default function Galeria() {
 							}}>
 							{gallery.map((i, index) => (
 								<SwiperSlide key={index}>
-									<div className='aspect-w-1 aspect-h-1'>
+									<div className='aspect-w-1 aspect-h-1 '>
 										<img
 											loading='lazy'
 											alt={i.title}
-											className='object-cover'
+											className='object-cover rounded-xl'
 											src={i.img}
 										/>
 									</div>
