@@ -14,7 +14,7 @@ export default function Acerca() {
 	];
 
 	return (
-		<div className='container my-12'>
+		<div className='container my-12 p-5'>
 			<h2 className='my-5 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Acerca de BUSTOUR MORELOS
 			</h2>
@@ -39,17 +39,18 @@ export default function Acerca() {
 						))}
 					</div>
 
-					<div className='text-lg text-text text-center mt-5'>
-						Con Bustour Morelos contarás con los mejores servicios en la renta
+					<div class='mb-12 space-y-2 text-center mt-11'>					
+					<p class='lg:w-6/12 lg:mx-auto text-lg text-text text-center mb-8'>
+					Con Bustour Morelos contarás con los mejores servicios en la renta
 						de autobuses y camionetas con chofer, esto para que puedas disfrutar
-						tus vacaciones y relajarte.
-					</div>
-
-					<div className='text-lg text-primary text-center font-semibold mt-5'>
-						¡Contáctanos! Recibe toda la información sobre nuestros servicios,
-						<br /> así como las cotizaciones de los viajes que tienes pensado
+						de tus vacaciones y relajarte.
+					</p>
+					<p class='lg:w-6/12 lg:mx-auto text-xl text-primary text-center font-semibold'>
+					¡Contáctanos! Recibe toda la información sobre nuestros servicios,
+						 así como las cotizaciones de los viajes que tienes pensado
 						realizar.
-					</div>
+					</p>
+				</div>					
 				</div>
 			</section>
 		</div>

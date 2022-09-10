@@ -2,7 +2,7 @@ import Bus from '../assets/img/bus.png';
 
 export default function Extra() {
 	return (
-		<div className='w-full my-10'>
+		<div className='w-full my-10 px-5'>
 			<div className='container'>
 				<div className='md:grid md:grid-cols-2'>
 					<div className='relative'>
@@ -24,7 +24,7 @@ export default function Extra() {
 							</div>
 						</div>
 					</div>
-					<div className='p-4 md:p-8 text-justify text-text text-xl max-w-xl'>
+					<div className='p-4 md:p-8 text-justify text-text text-xl max-w-xl mt-5'>
 						<h2 className='text-2xl md:text-4xl font-bold text-secondary'>
 							¿Sin camioneta o autobús?
 						</h2>
