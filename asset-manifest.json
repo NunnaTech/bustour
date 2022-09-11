@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bustour/static/css/main.21d0d18c.css",
-    "main.js": "/bustour/static/js/main.e412db9c.js",
+    "main.css": "/bustour/static/css/main.a967c61e.css",
+    "main.js": "/bustour/static/js/main.a7651b36.js",
     "static/media/cover.webp": "/bustour/static/media/cover.8ad2d62b4f245786fa94.webp",
     "static/media/bus.png": "/bustour/static/media/bus.8e3802170cb13a854c75.png",
-    "static/media/logo.svg": "/bustour/static/media/logo.5ca9353ae0621c8b34b55a7598e600cc.svg",
+    "static/media/logo.svg": "/bustour/static/media/logo.da32b2c9c30ea43447647de80c532776.svg",
     "index.html": "/bustour/index.html",
-    "main.21d0d18c.css.map": "/bustour/static/css/main.21d0d18c.css.map",
-    "main.e412db9c.js.map": "/bustour/static/js/main.e412db9c.js.map"
+    "main.a967c61e.css.map": "/bustour/static/css/main.a967c61e.css.map",
+    "main.a7651b36.js.map": "/bustour/static/js/main.a7651b36.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d0d18c.css",
-    "static/js/main.e412db9c.js"
+    "static/css/main.a967c61e.css",
+    "static/js/main.a7651b36.js"
   ]
 }
