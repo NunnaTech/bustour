@@ -3,7 +3,6 @@ import { BsTelephone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 import { IoLogoWhatsapp } from 'react-icons/io';
-import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function Acerca() {
 	return (
@@ -59,15 +58,17 @@ export default function Acerca() {
 							</div>
 							<div className='md:col-span-2 flex items-center justify-start gap-4 mt-5'>
 								<a
+									rel='noreferrer'
 									target='_blank'
 									href='https://www.facebook.com/bustourmorelosrentadeautobusesycamionetas'>
 									<BsFacebook className='text-2xl text-white hover:text-slate-200	' />
 								</a>
 								<a
+									rel='noreferrer'
 									target='_blank'
 									href='https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor'>
 									<IoLogoWhatsapp className='text-2xl text-white hover:text-slate-200' />
-								</a>								
+								</a>
 							</div>
 						</div>
 
@@ -133,8 +134,11 @@ export default function Acerca() {
 							<button className='w-full px-6 py-3 mt-6 text-md font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-secondary rounded-md hover:bg-primary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
 								Enviar
 							</button>
-							<p className='my-5 text-center text-gray-600'>Ó si lo prefieres...</p>
+							<p className='my-5 text-center text-gray-600'>
+								Ó si lo prefieres...
+							</p>
 							<a
+								rel='noreferrer'
 								type='button'
 								target='_blank'
 								href='https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor'

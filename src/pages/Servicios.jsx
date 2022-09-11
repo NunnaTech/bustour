@@ -45,7 +45,7 @@ export default function Servicios() {
 						¡No dudes en enviarnos un mensaje para obtener una cotización!
 					</p>
 					<a
-					target="_blank" href="https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor"
+					rel="noreferrer" target="_blank" href="https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor"
 						type='button'
 						class='animate-bounce text-white bg-[#25D366] hover:bg-[#25D366]/80 focus:ring-4 focus:outline-none focus:ring-[#25D366]/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2'>
 						<svg

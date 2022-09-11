@@ -45,10 +45,10 @@ export default function Navbar() {
 					</a>
 				</nav>
 				<div className='md:col-span-2 flex items-center justify-center md:justify-end gap-4'>
-					<a  target="_blank" href='https://www.facebook.com/bustourmorelosrentadeautobusesycamionetas'>
+					<a  rel="noreferrer" target="_blank" href='https://www.facebook.com/bustourmorelosrentadeautobusesycamionetas'>
 						<BsFacebook className='text-2xl text-text hover:text-blue-600' />
 					</a>
-					<a target="_blank" href="https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor">
+					<a rel="noreferrer" target="_blank" href="https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor">
 						<IoLogoWhatsapp className='text-2xl text-text hover:text-green-500' />
 					</a>
 					<a href='tel:7771196162'>

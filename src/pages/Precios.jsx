@@ -55,6 +55,7 @@ export default function Precios() {
 									</p>
 
 									<a
+										rel="noreferrer"
 										type='button'
 										target="_blank" href="https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20a%20Cancún%20por%20favor"
 										class='w-full text-white bg-[#25D366] hover:bg-[#25D366]/80 focus:ring-4 focus:outline-none focus:ring-[#25D366]/50 font-medium rounded-lg text-md px-5 py-2.5 text-center inline-flex justify-center items-center mr-2 mb-2'>
