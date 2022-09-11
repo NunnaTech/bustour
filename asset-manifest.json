@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/bustour/static/css/main.a967c61e.css",
-    "main.js": "/bustour/static/js/main.a7651b36.js",
+    "main.css": "/bustour/static/css/main.5f9e55f6.css",
+    "main.js": "/bustour/static/js/main.c0a47351.js",
+    "static/media/acapulco.png": "/bustour/static/media/acapulco.ffa676a22a37e110c9a4.png",
+    "static/media/teotihuacan.png": "/bustour/static/media/teotihuacan.ab72fa1a849675844aae.png",
+    "static/media/aeropuerto.png": "/bustour/static/media/aeropuerto.b405b10ff7f19ba2bacb.png",
+    "static/media/nevado-toluca.jpg": "/bustour/static/media/nevado-toluca.bc6badf3cd61a7f8ffcf.jpg",
+    "static/media/versa.jpg": "/bustour/static/media/versa.fc2554781b8e152585f0.jpg",
     "static/media/cover.webp": "/bustour/static/media/cover.8ad2d62b4f245786fa94.webp",
+    "static/media/avanza-2022.jpeg": "/bustour/static/media/avanza-2022.3137cfe626881682069e.jpeg",
     "static/media/bus.png": "/bustour/static/media/bus.8e3802170cb13a854c75.png",
+    "static/media/camioneta-pasajeros.jpg": "/bustour/static/media/camioneta-pasajeros.39aa898c4e8543c85abb.jpg",
+    "static/media/autobus-turistico.jpg": "/bustour/static/media/autobus-turistico.ed8cd5c8089e37b675ea.jpg",
     "static/media/logo.svg": "/bustour/static/media/logo.da32b2c9c30ea43447647de80c532776.svg",
     "index.html": "/bustour/index.html",
-    "main.a967c61e.css.map": "/bustour/static/css/main.a967c61e.css.map",
-    "main.a7651b36.js.map": "/bustour/static/js/main.a7651b36.js.map"
+    "main.5f9e55f6.css.map": "/bustour/static/css/main.5f9e55f6.css.map",
+    "main.c0a47351.js.map": "/bustour/static/js/main.c0a47351.js.map"
   },
   "entrypoints": [
-    "static/css/main.a967c61e.css",
-    "static/js/main.a7651b36.js"
+    "static/css/main.5f9e55f6.css",
+    "static/js/main.c0a47351.js"
   ]
 }
