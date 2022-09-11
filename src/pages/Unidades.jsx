@@ -1,3 +1,5 @@
+import Auto1 from '../assets/img/avanza-2022.jpeg';
+
 export default function Unidades() {
 	return (
 		<div
@@ -8,7 +10,7 @@ export default function Unidades() {
 			</h2>
 
 			<div className='text-xl text-text text-center mb-10'>
-				<p class='lg:w-6/12 lg:mx-auto text-xl'>
+				<p className='lg:w-6/12 lg:mx-auto text-xl'>
 					En BUSTOUR MORELOS contamos con unidades de último modelo para que tu
 					experiencia sea de lo más placentera
 				</p>
@@ -18,7 +20,7 @@ export default function Unidades() {
 				<div className='bg-white flex flex-col max-w-sm mx-auto rounded-lg shadow-xl'>
 					<div>
 						<img
-							src='https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/uploads/436/5646e474-f530-45a0-89e6-aa21b68fbaae.jpeg'
+							src={Auto1}
 							alt='Usuario'
 							className='w-full object-cover rounded-t-lg'
 						/>

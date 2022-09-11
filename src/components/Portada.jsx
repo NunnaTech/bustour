@@ -23,7 +23,7 @@ export default function Portada() {
 					<a
 						href='/#contacto'
 						type='button'
-						class='mt-5 text-white bg-primary hover:bg-primary/80 focus:ring-4 focus:outline-none focus:ring-primary/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2'>
+						className='mt-5 text-white bg-primary hover:bg-primary/80 focus:ring-4 focus:outline-none focus:ring-primary/50 font-medium rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2'>
 						¡Contáctanos!
 					</a>
 				</div>

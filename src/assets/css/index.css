@@ -4,32 +4,29 @@
 @tailwind utilities;
 
 html {
-	scroll-behavior: smooth;
-	overflow: scroll;
+  scroll-behavior: smooth;
+  overflow: scroll;
   overflow-x: hidden;
 }
 
-/* width */
 ::-webkit-scrollbar {
-	width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-	background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: #1467C5;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: #555;
-  }
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1467C5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @layer components {
-	.nabvar-link{
-		@apply md:py-1 md:px-2 text-base md:text-lg rounded-lg hover:bg-slate-100 hover:text-secondary transition-colors
-	}
+  .nabvar-link {
+    @apply md:py-1 md:px-2 text-base md:text-lg rounded-lg hover:bg-slate-100 hover:text-secondary transition-colors
+  }
 }
