@@ -142,9 +142,9 @@ export default function Acerca() {
 								type='button'
 								target='_blank'
 								href='https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor'
-								class='w-full text-white bg-[#25D366] hover:bg-[#25D366]/80 focus:ring-4 focus:outline-none focus:ring-[#25D366]/50 font-medium rounded-lg text-md px-5 py-2.5 text-center inline-flex justify-center items-center mr-2 mb-2'>
+								className='w-full text-white bg-[#25D366] hover:bg-[#25D366]/80 focus:ring-4 focus:outline-none focus:ring-[#25D366]/50 font-medium rounded-lg text-md px-5 py-2.5 text-center inline-flex justify-center items-center mr-2 mb-2'>
 								<svg
-									class='mr-2 -ml-1 w-6 h-6 text-center'
+									className='mr-2 -ml-1 w-6 h-6 text-center'
 									aria-hidden='true'
 									focusable='false'
 									data-prefix='fab'
