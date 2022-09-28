@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bustour/static/css/main.5f9e55f6.css",
-    "main.js": "/bustour/static/js/main.c0a47351.js",
+    "main.js": "/bustour/static/js/main.c6be25ca.js",
     "static/media/acapulco.png": "/bustour/static/media/acapulco.ffa676a22a37e110c9a4.png",
     "static/media/teotihuacan.png": "/bustour/static/media/teotihuacan.ab72fa1a849675844aae.png",
     "static/media/aeropuerto.png": "/bustour/static/media/aeropuerto.b405b10ff7f19ba2bacb.png",
@@ -15,10 +15,10 @@
     "static/media/logo.svg": "/bustour/static/media/logo.da32b2c9c30ea43447647de80c532776.svg",
     "index.html": "/bustour/index.html",
     "main.5f9e55f6.css.map": "/bustour/static/css/main.5f9e55f6.css.map",
-    "main.c0a47351.js.map": "/bustour/static/js/main.c0a47351.js.map"
+    "main.c6be25ca.js.map": "/bustour/static/js/main.c6be25ca.js.map"
   },
   "entrypoints": [
     "static/css/main.5f9e55f6.css",
-    "static/js/main.c0a47351.js"
+    "static/js/main.c6be25ca.js"
   ]
 }
