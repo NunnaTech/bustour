@@ -45,8 +45,8 @@ export default function Acerca() {
 
 								<p className='flex items-start '>
 									<BsTelephone className='text-2xl' />
-									<a href='tel:7773165489'>
-										<span className='mx-2'>777-316-5489</span>
+									<a href='tel:7773273295'>
+										<span className='mx-2'>777-327-3295</span>
 									</a>
 								</p>
 								<p className='flex items-start '>
@@ -142,7 +142,7 @@ export default function Acerca() {
 								type='button'
 								target='_blank'
 								href='https://wa.me/527771196162?text=Hola!%20Quisiera%20información%20para%20cotizar%20un%20viaje%20por%20favor'
-								className='w-full text-white bg-[#25D366] hover:bg-[#25D366]/80 focus:ring-4 focus:outline-none focus:ring-[#25D366]/50 font-medium rounded-lg text-md px-5 py-2.5 text-center inline-flex justify-center items-center mr-2 mb-2'>
+								className='w-full px-6 py-3 text-white bg-[#25D366] hover:bg-[#25D366]/80 focus:ring-4 focus:outline-none focus:ring-[#25D366]/50 font-medium rounded-md text-md text-center inline-flex justify-center items-center mr-2 mb-2'>
 								<svg
 									className='mr-2 -ml-1 w-6 h-6 text-center'
 									aria-hidden='true'

@@ -55,7 +55,7 @@ export default function Testimonios() {
 
 							<footer className='mt-4'>
 								<p className='text-xs text-gray-500'>
-									Reseñas Google - Agosto 2022
+									Reseñas de Google - Agosto 2022
 								</p>
 							</footer>
 						</blockquote>
@@ -109,7 +109,7 @@ export default function Testimonios() {
 
 							<footer className='mt-4'>
 								<p className='text-xs text-gray-500'>
-								Reseñas Google - Hace 3 años
+								Reseñas de Google - Hace 3 años
 								</p>
 							</footer>
 						</blockquote>
@@ -165,7 +165,7 @@ export default function Testimonios() {
 
 							<footer className='mt-4'>
 								<p className='text-xs text-gray-500'>
-								Reseñas Google - Hace 1 año
+								Reseñas de Google - Hace 1 año
 								</p>
 							</footer>
 						</blockquote>
@@ -222,7 +222,7 @@ export default function Testimonios() {
 
 							<footer className='mt-4'>
 								<p className='text-xs text-gray-500'>
-								Reseñas Google - Hace 2 año
+								Reseñas de Google - Hace 2 años
 								</p>
 							</footer>
 						</blockquote>

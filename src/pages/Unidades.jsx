@@ -1,4 +1,7 @@
 import Auto1 from '../assets/img/avanza-2022.jpeg';
+import { MdOutlineAir } from 'react-icons/md';
+import { BsPersonFill } from 'react-icons/bs';
+import { MdOfflineBolt } from 'react-icons/md';
 
 export default function Unidades() {
 	return (
@@ -34,43 +37,16 @@ export default function Unidades() {
 						<p className='text-gray-500'>
 							Con nuevo diseño, más dinamismo y mejor desempeño
 						</p>
-						<div className='flex items-center mt-4'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								className='h-6 w-6 '
-								viewBox='0 0 320 512'>
-								<path
-									fill='#374151'
-									d='M208 48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zM152 352V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.9s-34.8 4.2-43.9-10.9L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152z'
-								/>
-							</svg>
-							<h1 className='px-2 text-sm'>6 Pasajeros</h1>
-						</div>
 						<div className='flex items-center mt-4 text-gray-700'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								className='h-6 w-6'
-								strokeWidth={2}
-								viewBox='0 0 512 512'>
-								<path
-									fill='#374151'
-									d='M288 32c0 17.7 14.3 32 32 32h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c53 0 96-43 96-96s-43-96-96-96H320c-17.7 0-32 14.3-32 32zm64 352c0 17.7 14.3 32 32 32h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H384c-17.7 0-32 14.3-32 32zM128 512h32c53 0 96-43 96-96s-43-96-96-96H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H160c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32 14.3-32 32s14.3 32 32 32z'
-								/>
-							</svg>
-
+							<MdOutlineAir className='h-6 w-6' />
+							<h1 className='px-2 text-sm '>6 Pasajeros</h1>
+						</div>
+						<div className='flex items-center mt-4 text-gray-700 '>
+							<BsPersonFill className='h-6 w-6' />
 							<h1 className='px-2 text-sm'>Aire acondicionado</h1>
 						</div>
 						<div className='flex items-center mt-4 text-gray-700'>
-							<svg
-								xmlns='http://www.w3.org/2000/svg'
-								className='h-6 w-6'
-								viewBox='0 0 448 512'>
-								<path
-									fill='#374151'
-									d='M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z'
-								/>
-							</svg>
-
+							<MdOfflineBolt className='h-6 w-6' />
 							<h1 className='px-2 text-sm'>Cargador para celular</h1>
 						</div>
 					</div>

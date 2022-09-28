@@ -33,7 +33,9 @@ export default function Extra() {
 							ofrecerte el mejor servicio y la mejor experiencia.
 						</p>
 						<p className='mt-4'>
-							Contactanos para llegar a tiempo a tu destino.
+							Viajes a cualquier parte de la republica mexicana.
+							Contáctanos para llegar a tiempo a tu destino.
+
 						</p>
 					</div>
 				</div>
