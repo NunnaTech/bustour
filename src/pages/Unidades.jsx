@@ -1,4 +1,4 @@
-import avanza from '../assets/img/avanza-2022.jpeg';
+import avanza from '../assets/img/avanza-2022.png';
 import bus from '../assets/img/bus.png';
 import hiace from '../assets/img/hiace.png';
 import mercedes from '../assets/img/mercedes.jpg';
@@ -41,7 +41,7 @@ export default function Unidades() {
 					</div>
 					<div className='px-6 py-4 flex flex-col gap-2'>
 						<p className='text-gray-500'>
-							Para aquellos viajes magnos y con una basta capacidad de pasajeros
+							Para aquellos viajes magnos y con una alta capacidad de pasajeros
 						</p>
 						<div className='flex items-center mt-4 text-gray-700'>
 							<BsPersonFill className='h-6 w-6' />
@@ -156,7 +156,7 @@ export default function Unidades() {
 					</div>
 					<div className='px-6 py-4 flex flex-col gap-2'>
 						<p className='text-gray-500'>
-							Con nuevo diseño, más dinamismo y mejor desempeño
+						Con nuevo diseño, más dinamismo y mejor desempeño
 						</p>
 						<div className='flex items-center mt-4 text-gray-700'>
 							<BsPersonFill className='h-6 w-6' />
