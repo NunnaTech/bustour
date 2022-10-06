@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/bustour/static/css/main.5f9e55f6.css",
-    "main.js": "/bustour/static/js/main.c6be25ca.js",
+    "main.css": "/bustour/static/css/main.7889dad6.css",
+    "main.js": "/bustour/static/js/main.efd62a3e.js",
     "static/media/acapulco.png": "/bustour/static/media/acapulco.ffa676a22a37e110c9a4.png",
     "static/media/teotihuacan.png": "/bustour/static/media/teotihuacan.ab72fa1a849675844aae.png",
     "static/media/aeropuerto.png": "/bustour/static/media/aeropuerto.b405b10ff7f19ba2bacb.png",
     "static/media/nevado-toluca.jpg": "/bustour/static/media/nevado-toluca.bc6badf3cd61a7f8ffcf.jpg",
     "static/media/versa.jpg": "/bustour/static/media/versa.fc2554781b8e152585f0.jpg",
+    "static/media/hiace.png": "/bustour/static/media/hiace.dff0b472dc9963c5c5fe.png",
     "static/media/cover.webp": "/bustour/static/media/cover.8ad2d62b4f245786fa94.webp",
-    "static/media/avanza-2022.jpeg": "/bustour/static/media/avanza-2022.3137cfe626881682069e.jpeg",
+    "static/media/avanza-2022.png": "/bustour/static/media/avanza-2022.03e82a7a0a24dc4afa0a.png",
     "static/media/bus.png": "/bustour/static/media/bus.8e3802170cb13a854c75.png",
     "static/media/camioneta-pasajeros.jpg": "/bustour/static/media/camioneta-pasajeros.39aa898c4e8543c85abb.jpg",
     "static/media/autobus-turistico.jpg": "/bustour/static/media/autobus-turistico.ed8cd5c8089e37b675ea.jpg",
+    "static/media/mercedes.jpg": "/bustour/static/media/mercedes.2d132d296ae0d8cee981.jpg",
     "static/media/logo.svg": "/bustour/static/media/logo.da32b2c9c30ea43447647de80c532776.svg",
     "index.html": "/bustour/index.html",
-    "main.5f9e55f6.css.map": "/bustour/static/css/main.5f9e55f6.css.map",
-    "main.c6be25ca.js.map": "/bustour/static/js/main.c6be25ca.js.map"
+    "main.7889dad6.css.map": "/bustour/static/css/main.7889dad6.css.map",
+    "main.efd62a3e.js.map": "/bustour/static/js/main.efd62a3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f9e55f6.css",
-    "static/js/main.c6be25ca.js"
+    "static/css/main.7889dad6.css",
+    "static/js/main.efd62a3e.js"
   ]
 }
