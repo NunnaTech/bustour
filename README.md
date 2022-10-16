@@ -30,11 +30,6 @@ Mockup de la landing page
 *  [![TailWindCSS][tailwind.js]][tailwind-url]
 *  [![Hyperui][hyperui.js]][hyperui-url]
 
-
-
-https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-
-
 [contributors-shield]: https://img.shields.io/github/contributors/HectorSaldes/dor.svg?style=for-the-badge&color=1467C5
 [contributors-url]: https://github.com/ThePandaDevs/bustour/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/HectorSaldes/dor.svg?style=for-the-badge&color=DD9C00
