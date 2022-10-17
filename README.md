@@ -49,4 +49,4 @@ Mockup de la landing page
 [hyperui-url]: https://www.hyperui.dev/
 
 [tailwind.js]: https://img.shields.io/badge/TailwindCSS-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
-[tailwind-url]: https://www.hyperui.dev/
+[tailwind-url]: https://tailwindcss.com/
