@@ -14,7 +14,7 @@ export default function Acerca() {
 			</h2>
 
 			<section>
-				<div className='grid md:grid-cols-2 gap-4'>
+				<div className='grid md:grid-cols-1 gap-4'>
 					<div className='bg-primary rounded-lg shadow-2xl text-white h-full'>
 						<div className='p-4 md:p-10'>
 							<h3 className='md:font-semibold text-lg md:text-2xl'>
@@ -84,7 +84,7 @@ export default function Acerca() {
 						</div>
 					</div>
 
-					<div className='bg-white rounded-lg shadow-2xl p-8 md:p-16'>
+					{/* <div className='bg-white rounded-lg shadow-2xl p-8 md:p-16'>
 						<h1 className='text-lg md:text-2xl font-medium text-gray-700'>
 							Ingrese sus datos
 						</h1>
@@ -147,7 +147,9 @@ export default function Acerca() {
 								Envíar WhatsApp
 							</a>
 						</form>
-					</div>
+					</div> */}
+
+
 				</div>
 			</section>
 		</div>
