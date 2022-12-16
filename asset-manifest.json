@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7889dad6.css",
-    "main.js": "/static/js/main.84a21017.js",
+    "main.css": "/static/css/main.1d0f3f50.css",
+    "main.js": "/static/js/main.015a00d5.js",
     "static/media/acapulco.png": "/static/media/acapulco.ffa676a22a37e110c9a4.png",
     "static/media/teotihuacan.png": "/static/media/teotihuacan.ab72fa1a849675844aae.png",
     "static/media/aeropuerto.png": "/static/media/aeropuerto.b405b10ff7f19ba2bacb.png",
@@ -16,11 +16,11 @@
     "static/media/mercedes.jpg": "/static/media/mercedes.2d132d296ae0d8cee981.jpg",
     "static/media/logo.svg": "/static/media/logo.da32b2c9c30ea43447647de80c532776.svg",
     "index.html": "/index.html",
-    "main.7889dad6.css.map": "/static/css/main.7889dad6.css.map",
-    "main.84a21017.js.map": "/static/js/main.84a21017.js.map"
+    "main.1d0f3f50.css.map": "/static/css/main.1d0f3f50.css.map",
+    "main.015a00d5.js.map": "/static/js/main.015a00d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7889dad6.css",
-    "static/js/main.84a21017.js"
+    "static/css/main.1d0f3f50.css",
+    "static/js/main.015a00d5.js"
   ]
 }
