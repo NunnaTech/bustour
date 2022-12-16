@@ -17,7 +17,7 @@ export default function Unidades() {
 				{icon: <BsPersonFill className='h-6 w-6' />, text: '47 Pasajeros'},
 				{icon: <MdOutlineAir className='h-6 w-6' />, text: 'Aire acondicionado'},
 				{icon: <MdOfflineBolt className='h-6 w-6' />, text: 'Cargador para celular'},
-				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Acientos reclinables'},
+				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Asientos reclinables'},
 				{icon: <FaToilet className='h-6 w-6' />, text: 'Baños incluidos'},
 			]
 		},
@@ -26,30 +26,30 @@ export default function Unidades() {
 			name: 'Mercedes-Benz 2015',
 			description: 'Espacio, confort y seguridad son partes esencial para el camino.',
 			content:[
-				{icon: <BsPersonFill className='h-6 w-6' />, text: '47 Pasajeros'},
+				{icon: <BsPersonFill className='h-6 w-6' />, text: '20 Pasajeros'},
 				{icon: <MdOutlineAir className='h-6 w-6' />, text: 'Aire acondicionado'},
 				{icon: <MdOfflineBolt className='h-6 w-6' />, text: 'Cargador para celular'},
-				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Acientos reclinables'},
+				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Asientos reclinables'},
 			]
 		},{
 			image : hiace,
 			name: 'Toyota Hiace 2019',
 			description: 'Espacio para tu trabajo, máxima comodidad para tus pasajeros.',
 			content:[
-				{icon: <BsPersonFill className='h-6 w-6' />, text: '47 Pasajeros'},
+				{icon: <BsPersonFill className='h-6 w-6' />, text: '14 Pasajeros'},
 				{icon: <MdOutlineAir className='h-6 w-6' />, text: 'Aire acondicionado'},
 				{icon: <MdOfflineBolt className='h-6 w-6' />, text: 'Cargador para celular'},
-				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Acientos reclinables'},
+				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Asientos reclinables'},
 			]
 		},{
 			image : avanza,
 			name: 'Toyota Avanza 2022',
 			description: 'Con nuevo diseño, más dinamismo y mejor desempeño.',
 			content:[
-				{icon: <BsPersonFill className='h-6 w-6' />, text: '47 Pasajeros'},
+				{icon: <BsPersonFill className='h-6 w-6' />, text: '6 Pasajeros'},
 				{icon: <MdOutlineAir className='h-6 w-6' />, text: 'Aire acondicionado'},
 				{icon: <MdOfflineBolt className='h-6 w-6' />, text: 'Cargador para celular'},
-				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Acientos reclinables'},
+				{icon: <MdOutlineAirlineSeatLegroomNormal className='h-6 w-6' />, text: 'Asientos reclinables'},
 			]
 		},
 	]
