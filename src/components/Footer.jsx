@@ -24,7 +24,7 @@ export default function Footer() {
 						rel='noreferrer'
 						target='_blank'
 						href='https://github.com/ThePandaDevs'
-						class='text-gray-700 font-bold hover:text-primary'>
+						className='text-gray-700 font-bold hover:text-primary'>
 						- ThePandaDevs.{' '}
 					</a>
 					Todos los derechos reservados.

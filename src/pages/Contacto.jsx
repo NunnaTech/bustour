@@ -1,10 +1,59 @@
+import { useState } from 'react';
 import { FiMapPin } from 'react-icons/fi';
 import { BsTelephone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 import { IoLogoWhatsapp } from 'react-icons/io';
+import { removeChar } from '../assets/js/Validations.js';
+import { sendEmailService } from '../assets/js/ContactService.js';
+import Notiflix from 'notiflix';
 
 export default function Acerca() {
+	const emptyData = {
+		name: '',
+		email: '',
+		phone: '',
+		comment: '',
+	};
+
+	const [sendData, setSendData] = useState(emptyData);
+	const [errors, setErrors] = useState(false);
+
+	const handleChange = (e) => {
+		setSendData({
+			...sendData,
+			[e.target.name]: removeChar(e.target.value, e.target.name),
+		});
+	};
+
+	const submit = () => {
+		if (
+			sendData.name === '' ||
+			sendData.email === '' ||
+			sendData.phone === ''
+		) {
+			setErrors(true);
+		} else {
+			Notiflix.Loading.standard('Enviando correo electrónico...');
+			setErrors(false);
+			sendEmailService(sendData)
+				.then((res) => res.json())
+				.then(({ success, data }) => {
+					Notiflix.Loading.remove();
+					if (success) {
+						data.forEach((element) => Notiflix.Notify.success(element));
+						setSendData(emptyData);
+					} else {
+						data.forEach((element) => Notiflix.Notify.failure(element));
+					}
+				})
+				.catch((err) => {
+					Notiflix.Loading.remove();
+					Notiflix.Notify.failure('Ocurrió un error en el servidor enviando el correo electrónico')
+				});
+		}
+	};
+
 	return (
 		<div
 			className='container my-14 p-5'
@@ -12,9 +61,8 @@ export default function Acerca() {
 			<h2 className='mb-12 text-2xl md:text-4xl text-center font-bold text-primary'>
 				Contacto
 			</h2>
-
 			<section>
-				<div className='grid md:grid-cols-1 gap-4'>
+				<div className='grid md:grid-cols-2 gap-4'>
 					<div className='bg-primary rounded-lg shadow-2xl text-white h-full'>
 						<div className='p-4 md:p-10'>
 							<h3 className='md:font-semibold text-lg md:text-2xl'>
@@ -83,55 +131,85 @@ export default function Acerca() {
 							/>
 						</div>
 					</div>
-
-					{/* <div className='bg-white rounded-lg shadow-2xl p-8 md:p-16'>
+					<div className='bg-white rounded-lg shadow-2xl p-8 md:p-16'>
 						<h1 className='text-lg md:text-2xl font-medium text-gray-700'>
 							Ingrese sus datos
 						</h1>
-
-						<form className='mt-6'>
+						<div className='mt-6'>
 							<div className='flex-1'>
 								<label className='block mb-2 text-sm text-gray-600'>
-									Nombre completo:
+									Nombre completo: *
 								</label>
 								<input
 									type='text'
-									placeholder='Fernando Ortiz'
-									className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md         focus:border-blue-400   focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+									name='name'
+									value={sendData.name}
+									onChange={(e) => handleChange(e)}
+									minLength='2'
+									maxLength='50'
+									placeholder='Ej. Fernando Ortiz'
+									className={`block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40
+									${errors && sendData.name === '' ? 'border-red-500 bg-red-50' : ''}
+									`}
 								/>
 							</div>
-
 							<div className='flex-1 mt-6'>
-								<label className='block mb-2 text-sm text-gray-600  '>
-									Correo electrónico:
+								<label className='block mb-2 text-sm text-gray-600'>
+									Correo electrónico: *
 								</label>
 								<input
 									type='email'
-									placeholder='bustourmorelos@hotmail.com'
-									className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md         focus:border-blue-400   focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+									name='email'
+									minLength='5'
+									maxLength='50'
+									value={sendData.email}
+									onChange={(e) => handleChange(e)}
+									placeholder='Ej. bustourmorelos@hotmail.com'
+									className={`block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40
+									${errors && sendData.email === '' ? 'border-red-500 bg-red-50' : ''}
+									`}
 								/>
 							</div>
 							<div className='flex-1 mt-6'>
-								<label className='block mb-2 text-sm text-gray-600  '>
-									Número de teléfono:
+								<label className='block mb-2 text-sm text-gray-600'>
+									Número de teléfono: *
 								</label>
 								<input
 									type='tel'
-									placeholder='777-327-3295'
-									className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md         focus:border-blue-400   focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+									name='phone'
+									maxLength='10'
+									minLength='10'
+									value={sendData.phone}
+									onChange={(e) => handleChange(e)}
+									placeholder='Ej. 7773273295'
+									className={`block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40
+									${errors && sendData.phone === '' ? 'border-red-500 bg-red-50' : ''}
+									`}
 								/>
 							</div>
 
 							<div className='w-full mt-6'>
-								<label className='block mb-2 text-sm text-gray-600  '>
-									Comentario
+								<label className='block mb-2 text-sm text-gray-600'>
+									Comentario:
 								</label>
 								<textarea
-									className='block w-full h-32 md:h-24 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md          focus:border-blue-400   focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
-									placeholder='¡Hola! Me gustaria resevar un traslado al aeropuerto'></textarea>
+									value={sendData.comment}
+									name='comment'
+									maxLength='200'
+									onChange={(e) => handleChange(e)}
+									className={`block w-full h-32 md:h-24 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400   focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40`}
+									placeholder='Ej. ¡Hola! Me gustaria resevar un traslado al aeropuerto'></textarea>
 							</div>
 
-							<button className='w-full px-6 py-3 mt-6 text-md font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-secondary rounded-md hover:bg-primary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
+							{errors && (
+								<div className='mt-2 text-sm text-red-500'>
+									Por favor revisa los campos *
+								</div>
+							)}
+
+							<button
+								className='w-full px-6 py-3 mt-6 text-md font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-secondary rounded-md hover:bg-primary focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'
+								onClick={submit}>
 								Enviar
 							</button>
 							<p className='my-5 text-center text-gray-600'>
@@ -146,10 +224,8 @@ export default function Acerca() {
 								<IoLogoWhatsapp className='text-2xl text-white hover:text-slate-200 mr-2' />
 								Envíar WhatsApp
 							</a>
-						</form>
-					</div> */}
-
-
+						</div>
+					</div>
 				</div>
 			</section>
 		</div>
