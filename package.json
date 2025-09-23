@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4",
     "typescript": "4.9.5"
   },
-  "homepage": "https://bustourmorelos.mx/",
+  "homepage": "https://nunnatech.github.io/bustour/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
