@@ -18,14 +18,14 @@ export default function Footer() {
 			</div>
 			<div>
 				<p className='text-gray-800 text-center md:text-left'>
-					&copy; 2022.{' '}
+					&copy; 2025.{' '}
 					<span className='text-gray-700 font-bold'>BUSTOUR MORELOS</span>{' '}
 					<a
 						rel='noreferrer'
 						target='_blank'
-						href='https://github.com/ThePandaDevs'
+						href='https://github.com/NunnaTech'
 						className='text-gray-700 font-bold hover:text-primary'>
-						- ThePandaDevs.{' '}
+						- NunnaTech.{' '}
 					</a>
 					Todos los derechos reservados.
 				</p>
